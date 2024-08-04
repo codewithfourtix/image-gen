@@ -15,7 +15,7 @@ const ImageGenerator = () => {
                 headers:{
                     'Content-Type':'application/json',
                     Authorization:
-                    'bearer sk-5GAPATYTZyiV1jRn58hzXkf-YPaf1E5HAjFEToMnAeT3BlbkFJupDilVxV11TWRlZHDSpWc5ZdE6K2ULWaJrgnlIlGAA',
+                    'bearer YOUR_API_KEY',
                     'User-Agent':'Chrome'
                 },
                 body:JSON.stringify({
@@ -28,7 +28,6 @@ const ImageGenerator = () => {
         let data = await response.json()
         console.log(data)
     }
-    // sk-5GAPATYTZyiV1jRn58hzXkf-YPaf1E5HAjFEToMnAeT3BlbkFJupDilVxV11TWRlZHDSpWc5ZdE6K2ULWaJrgnlIlGAA
     return (
         <div className='ai-image-generator'>
             <div className='header'>ai image <span>generator</span></div>
