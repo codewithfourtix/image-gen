@@ -9,7 +9,7 @@ const ImageGenerator = () => {
             return 0;
         }
         const response = await fetch(
-            'https://api.openai.com/v1/images/generations',
+            // 'https://api.openai.com/v1/images/generations',
             {
                 method:'POST',
                 headers:{
